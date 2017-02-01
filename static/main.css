@@ -1,0 +1,125 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 75px;
+  font-family: 'NanumBarunGothic', 'Malgun Gothic', 'Helvetica Neue', dotum, 'Lucida Grande', sans-serif;
+}
+#footer {
+  position: absolute;
+  margin-top: 100px;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 75px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#logo {
+  font-family: aeroregular, sans-serif;
+  font-size: 35px;
+}
+
+.divtag {
+  font-family: aeroregular, sans-serif;  
+}
+
+body > .container {
+  padding: 60px 15px 30px 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#content {
+  padding-top: 20px;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* mobile only CSS */
+
+@media (max-width: 991px) {
+  #footer {
+    display: none;
+  }
+}
+
+/* speakerdeck css */
+.speakerdeck {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .speakerdeck {
+    width: auto;
+  }
+}
+
+/* icon css */
+
+#dnsever {
+  margin-bottom: 2px;
+}
+
+#jekyllico {
+  margin: 0 -7px 0 -8px;
+}
+
+/* social */
+
+.fb-like {
+  margin: 22px 69px 0 0;
+  float: right;
+}
+
+/*slideshow div*/
+.slideshow-div {
+  height: 560px;
+}
+
+@media (max-width: 991px) {
+  .slideshow-div {
+    height: auto;
+  }
+
+}
+
+.gallery {
+  width: 30%;
+  margin: 5px 5px 10px 5px;
+}
+
+@media (max-width: 991px) {
+  .gallery {
+    width: 100%;
+  }
+
+}
+
+.poster {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .poster {
+    width: 100%;
+  }
+
+}
